@@ -31,7 +31,7 @@ $(document).ready(function () {
             else if (cel >= 10 && cel < 20){
             picurl = "http://ww1.prweb.com/prfiles/2016/01/31/13192175/3_Hoodie.png"}
       else if (cel >= 20 && cel < 26){
-            picurl = "http://pngimg.com/upload/tshirt_PNG5449.png"}
+            picurl = "http://pngimg.com/uploads/tshirt/tshirt_PNG5449.png"}
       else if (cel >= 26){
             picurl = "https://www.designashirt.com/img/pages/landing-pages/products/tank-tops.png"};
                   
