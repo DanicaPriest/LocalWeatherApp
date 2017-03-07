@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/DanicaPriest/pen/pNqaWd.
+
+ Intermediate front end development project for free code camp. Works best in firefox. Other browsers don't support location by lat and long so location is based on ip address which is less acurate. There is a button where you can change the city. That button also works if you type a country name. background is based on weather condition and clothing image is based on temperature. 

@@ -1,0 +1,79 @@
+.large{
+  font-size:30px;
+  padding:5px;
+  
+}
+h1{
+  font-size:50px;
+}
+
+body{
+  background-image:url(https://media.giphy.com/media/3o7TKPk9j8SRYMmFdC/source.gif);
+  background-size:cover;
+  margin:40px;
+  
+}
+.mainApp{
+  background:rgba(255, 255, 255, 0.3) ;
+  padding:10px;
+  color:black;
+}
+button{
+  color:black;
+  font-size:20px;
+  padding:5px 10px 5px 10px;
+  border: 2px outset darkgrey;
+  background:rgba(255, 255, 255, 0.3);
+  box-shadow: 3px 3px 3px black;
+}
+button:hover{
+  background:grey;
+  border: 2px outset grey;
+  box-shadow: 3px 3px 3px black;
+}
+#clothes{
+  padding:10px;}
+img{
+  height:200px;
+  
+}
+.hide{
+  display:none;
+} 
+ 
+#browserFail h5{
+  font-weight:bold;
+   
+}
+.fog{
+  background:url(http://i1250.photobucket.com/albums/hh533/rockabillyrobb/from-the-mist-time-31000.gif);
+  
+}
+.haze{
+  background-image:url(https://media.giphy.com/media/3o7TKVaf0pflGFzlzW/source.gif);
+  background-size:cover;
+}
+.cloudy{
+  background-image:url(https://media.giphy.com/media/10539PNHnSuPTi/giphy.gif);
+  background-size:cover;
+  }
+.rain{
+  background-image:url(https://media.giphy.com/media/rR2AWZ3ip77r2/giphy.gif);
+  background-size:cover;
+}
+.storm{
+  background-image:url(https://media.giphy.com/media/jVgeF2mTxS5gc/giphy.gif);
+    background-size:cover;
+}
+.snow{
+  background-image:url(http://3.bp.blogspot.com/-k1j0OpWM3Ow/UuHdC3bj_7I/AAAAAAAAAGo/W2urTLOVkvU/s1600/getImage-12+-+%25D0%25BA%25D0%25BE%25D0%25BF.%25D0%25B8%25D0%25B7+%25D0%25BF%25D0%25B5%25D0%25B9%25D0%25BD%25D1%2582-SNOW.gif);
+  background-size:cover;
+}
+.extreme{
+  background-image:url(http://1.bp.blogspot.com/-4F_dp-3DNys/U0U0d9_TqpI/AAAAAAAAA0Q/Xr6FpW1DFPU/s1600/Last+snow.gif);
+  background-size:cover;
+}
+.clear{
+  background-image:url(https://media.giphy.com/media/UL3OeJc5w7qRq/source.gif);
+  background-size:cover;
+}
