@@ -51,7 +51,7 @@ $(document).ready(function () {
   
   var url = function (latitude, longitude) {
     var app = "3422526d38092bfe52208d33f6d384b5";
-    return "http://api.openweathermap.org/data/2.5/weather?APPID=" + app +
+    return "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=" + app +
       "&lat=" + latitude +"&lon="+ longitude;
   }
 
