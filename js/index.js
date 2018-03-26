@@ -50,7 +50,7 @@ $(document).ready(function () {
   // A function that takes a lat/lon pair and returns the weather URL string.
   
   var url = function (latitude, longitude) {
-    var app = "1e1fc09da0314d9f44fc47d0243c2dae";
+    var app = "3422526d38092bfe52208d33f6d384b5";
     return "http://api.openweathermap.org/data/2.5/weather?APPID=" + app +
       "&lat=" + latitude +"&lon="+ longitude;
   }
