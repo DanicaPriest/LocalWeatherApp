@@ -50,7 +50,7 @@ $(document).ready(function () {
   // A function that takes a lat/lon pair and returns the weather URL string.
   
   var url = function (latitude, longitude) {
-    var app = "3422526d38092bfe52208d33f6d384b5";
+    var app = "59dfb3bb052698f4ef166dabc3c0d641";
     return "https://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=" + app +
       "&lat=" + latitude +"&lon="+ longitude;
   }
@@ -116,7 +116,7 @@ $(document).ready(function () {
      $("#newCity").click(function(){
        $("body").removeClass();
                   var urlc = function (city) {
-    var app = "1e1fc09da0314d9f44fc47d0243c2dae";
+    var app = "59dfb3bb052698f4ef166dabc3c0d641";
     return "https://api.openweathermap.org/data/2.5/weather?APPID=" + app + "&q=" +
         city;
                    
