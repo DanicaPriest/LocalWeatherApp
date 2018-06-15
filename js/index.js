@@ -51,7 +51,7 @@ $(document).ready(function () {
   
   var url = function (latitude, longitude) {
     var app = "59dfb3bb052698f4ef166dabc3c0d641";
-    return "https://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=" + app +
+    return "https://api.openweathermap.org/data/2.5/weather?appid=" + app +
       "&lat=" + latitude +"&lon="+ longitude;
   }
 
@@ -117,7 +117,7 @@ $(document).ready(function () {
        $("body").removeClass();
                   var urlc = function (city) {
     var app = "59dfb3bb052698f4ef166dabc3c0d641";
-    return "https://api.openweathermap.org/data/2.5/weather?APPID=" + app + "&q=" +
+    return "https://api.openweathermap.org/data/2.5/weather?appid=" + app + "&q=" +
         city;
                    
   }
@@ -142,3 +142,8 @@ $(document).ready(function () {
                                                              }); 
     });
 })
+        
+    
+   
+
+  
