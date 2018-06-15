@@ -51,7 +51,7 @@ $(document).ready(function () {
   
   var url = function (latitude, longitude) {
     var app = "3422526d38092bfe52208d33f6d384b5";
-    return "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=" + app +
+    return "https://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=" + app +
       "&lat=" + latitude +"&lon="+ longitude;
   }
 
@@ -84,7 +84,7 @@ $(document).ready(function () {
   
   //this code is only for browsers that don't support http
     $("#redoBtn").on("click", function newPosition(){
-      $.getJSON("http://freegeoip.net/json/", function(json){
+      $.getJSON("https://freegeoip.net/json/", function(json){
         var latitude = json.latitude;
          var longitude = json.longitude;
 
@@ -117,7 +117,7 @@ $(document).ready(function () {
        $("body").removeClass();
                   var urlc = function (city) {
     var app = "1e1fc09da0314d9f44fc47d0243c2dae";
-    return "http://api.openweathermap.org/data/2.5/weather?APPID=" + app + "&q=" +
+    return "https://api.openweathermap.org/data/2.5/weather?APPID=" + app + "&q=" +
         city;
                    
   }
